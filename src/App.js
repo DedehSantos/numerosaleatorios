@@ -3,8 +3,8 @@ import React from 'react';
 import {View, StyleSheet} from 'react-native';
 
 
-
-import Titulo from './componentes/Titulo'
+import Botao from './componentes/Botao'
+//import Titulo from './componentes/Titulo'
 //import Aleatorio from './componentes/aleatirio'
 /* import Comppadrao, { Comp1, Comp2 } from './componentes/Multi'
 import Primeiro from './componentes/primeiro' */
@@ -12,12 +12,13 @@ import Primeiro from './componentes/primeiro' */
 
 export default () =>  (
 <View style={style.App}> 
-  <Titulo principal="Cadastro Produto"
-   segundario="Tela de Cadastro"/>
-   
+  
+   <Botao/>
     
     
     {/*
+    <Titulo principal="Cadastro Produto"
+   segundario="Tela de Cadastro"/>
     <Aleatorio min={1} max={60}/>
    <Aleatorio min={1} max={60}/>
    <Aleatorio min={1} max={60}/>
