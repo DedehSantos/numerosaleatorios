@@ -1,9 +1,11 @@
 
-import React from 'react';
+import React  from 'react';
 import {View, StyleSheet} from 'react-native';
 
-
-import Botao from './componentes/Botao'
+import Aleatorio from './componentes/Contador'
+import Contador from './componentes/Contador';
+import { useState } from 'react';
+//import Botao from './componentes/Botao'
 //import Titulo from './componentes/Titulo'
 //import Aleatorio from './componentes/aleatirio'
 /* import Comppadrao, { Comp1, Comp2 } from './componentes/Multi'
@@ -13,10 +15,11 @@ import Primeiro from './componentes/primeiro' */
 export default () =>  (
 <View style={style.App}> 
   
-   <Botao/>
+   
     
-    
+    <Contador inicial={100}/>
     {/*
+    <Botao/>
     <Titulo principal="Cadastro Produto"
    segundario="Tela de Cadastro"/>
     <Aleatorio min={1} max={60}/>
