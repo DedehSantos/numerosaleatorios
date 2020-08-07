@@ -17,7 +17,7 @@ export default () =>  (
   
    
     
-    <Contador inicial={100}/>
+    <Contador inicial={100} passo={13}/>
     {/*
     <Botao/>
     <Titulo principal="Cadastro Produto"
